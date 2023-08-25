@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+.background{
+background-blend-mode: lighten;
+}
+
+.a{
+    color: #fff;
+}
+
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.content .textBox 
+{
+    position: relative;
+    max-width: 700px
+}
+.content .textBox h2
+{
+color:#212F3C;
+font-size: 4em;
+line-height: 1.5em;
+font-weight: 800;
+text-transform: uppercase;
+}
+.content .textBox h2 span{
+    font-size: 1em;
+}
+.content .textBox p{
+    color: black;
+}
+
+.content .textBox a{
+    display:inline-block;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    background: #212F3C;
+
+    color:white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.content .a .left{
+    margin-left: 50px;
+}
+.contents
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+.contents .textBox 
+{    
+   
+    
+    position: relative;
+    max-width: 700px;
+    border:3rem ;
+  
+}
+.contents .textBox h4
+{
+color:#212F3C;
+font-size: 4em;
+line-height: 1.5em;
+font-weight: 600;
+text-transform: uppercase;
+
+}
+.contents .textBox h4 span{
+    font-size: 1em;
+}
+.contents .textBox p{
+    color: black;
+}
+.contents .textBox a{
+    display:inline-block;
+    padding: 8px 20px;
+    background: #212F3C;
+    color:white;
+    border-radius: 74px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+a{
+  margin-top: 20px;
+}
+.fi{
+  margin-right: 10px;
+}
+
+#notes h5{
+font-size: 22px;
+font-weight: 500;
+}
+.pa{
+    color: #656060;
+    
+}
+.bottom-content 
+{
+  list-style: none;
+  padding-top: 10px;
+  border-top: 1px solid rgb(179, 176, 176);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+ 
+}
+
+.bottom-content span{
+    color: #6d6d6d;
+    font-size: 15px;
+}
+.bottom-content .settings i{
+    color: #323030;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  .operation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+  .operation li {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  .butt:hover{
+  background: white;
+  }
+  .fa-edit,
+.fa-trash-alt {
+  color: #fff;
+  padding: 10px;
+  background-color: #1E8449;
+  border-radius: 50%;
+}
+
+.fa-trash-alt {
+  background-color: #D35400;
+}
+
+.fa-edit:hover {
+  background-color: #fff;
+  color: #145A32;
+  filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+}
+
+.fa-trash-alt:hover {
+  background-color: #fff;
+  color: #e74c3c;
+  filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+}
+#card-header-color {
+  background-color: #F4D03F;
+}
+
+.noteCard{
+  width: 300px !important;
+  height: 400px !important;
+}
+.textDiv{
+  width: 235px !important;
+  height: 245px !important;
+  overflow-y: scroll;
+}
+.textDiv::-webkit-scrollbar{
+ display: none;
+}

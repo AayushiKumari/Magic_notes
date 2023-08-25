@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Note App</title>
+    <!-- CSS only -->
+ <link rel="stylesheet" href="../style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+    crossorigin="anonymous"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+      
+        
+
+</head>
+
+<body">
+
+    <nav class="navbar navbar-expand-lg navbar-light  navbar sticky-top" style="background:#F4D03F">
+        <div class="container-fluid">
+            <a class=" fw-bold navbar-brand fw-bold" href="#">Magic Notes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href = "mailto:01sagrikasoni5421@gmail.com?subject = Feedback&body = Message">Gmail</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/sagrika-soni-8a559a1bb/>Linkedin">Linkedin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://github.com/sagrika11/notes-app">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tel:9155097930">Contact Us</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" id="searchTxt" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn text-light " type="submit" style="background:#229954">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-3 "> 
+        <h1 class="display-5 mb-4">Welcome To Magic Note</h1>
+        <div class="card shadow p-3 mb-5 bg-white rounded border-bottom">
+            <div class="card-body" >
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="addTitle" placeholder="Add Title">
+                    <input type="hidden" id="saveindex">
+                  </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="" id="addTxt"
+                        style="height: 100px"></textarea>
+                        <label for="floatingTextarea"></label>
+                </div>
+                <button class="btn butt mt-3 bg-warning" style="border:none;" id="addBtn">Add Note</button>
+                
+            </div>
+        </div>
+        <hr>
+        <h6 class="display-5">Yours Notes</h6>
+        <hr>
+        <div id ="notes" class="row container-fluid">
+           
+        </div>
+    
+        </div>
+    
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
